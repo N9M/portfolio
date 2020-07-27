@@ -1,0 +1,60 @@
+body{
+    font-family: 'Galada', cursive;
+    background-color: lightgrey;
+    text-align: center;
+    height: 100%;
+}
+
+div{
+    display: block;
+}
+
+.wrapper .row{
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.box{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: lightsteelblue;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.column{
+    height: 100%;
+    overflow: auto;
+}
+
+#sidebar{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-right: lightpink;
+}
+
+#sidebar .thumbnail{
+    padding-top: 200px;
+    border: 0px;
+}
+
+#myavtar{
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+}
+
+.headline{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.column .padding {
+    padding: 0px;
+}
